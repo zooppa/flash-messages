@@ -1,0 +1,24 @@
+{
+  "name": "@zooppa/flash-messages",
+  "version": "0.0.1",
+  "description": "A set of reducers and actions to implement flash messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zooppa/flash-messages.git"
+  },
+  "keywords": [
+    "redux",
+    "flash",
+    "messages"
+  ],
+  "author": "Zooppa <techadmin@zooppa.com> (https://www.zooppa.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zooppa/flash-messages/issues"
+  },
+  "homepage": "https://github.com/zooppa/flash-messages#readme"
+}

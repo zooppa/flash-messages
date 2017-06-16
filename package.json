@@ -4,6 +4,7 @@
   "description": "A set of reducers and actions to implement flash messages",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/zooppa/flash-messages/issues"
   },
-  "homepage": "https://github.com/zooppa/flash-messages#readme"
+  "homepage": "https://github.com/zooppa/flash-messages#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.1"
+  }
 }

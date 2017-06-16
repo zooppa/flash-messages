@@ -16,7 +16,9 @@ module.exports = {
     extensions: ['*', '.js'],
   },
   externals: [
-    nodeExternals(),
+    nodeExternals({
+      whitelist: ['shortid']
+    }),
   ], // do not bundle any node_modules
   module: {
     rules: [

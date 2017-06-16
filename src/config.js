@@ -1,0 +1,1 @@
+export const FLASH_MESSAGE_SHOW_TIME = 3000;

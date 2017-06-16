@@ -1,4 +1,4 @@
-# flash-messages
+# flash-messages [![Build Status](https://travis-ci.org/zooppa/flash-messages.svg?branch=master)](https://travis-ci.org/zooppa/flash-messages) [![codecov](https://codecov.io/gh/zooppa/flash-messages/branch/master/graph/badge.svg)](https://codecov.io/gh/zooppa/flash-messages)
 
 A redux reducer and a set of actions to implement flash messages in a redux
 application.

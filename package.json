@@ -30,7 +30,6 @@
   "homepage": "https://github.com/zooppa/flash-messages#readme",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.4",
     "shortid": "^2.2.8"
   },
   "devDependencies": {

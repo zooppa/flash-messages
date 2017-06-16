@@ -13,11 +13,11 @@ therefore, **still evolving and subject to sudden change**. Wait until version
 1.0.0 if you want to enjoy a stable API.
 
 ## Installing
-`npm install @zooppa/flash-messages lodash@^4.17.4`
+`npm install @zooppa/flash-messages`
 
 or
 
-`yarn add @zooppa/flash-messages lodash@^4.17.4`
+`yarn add @zooppa/flash-messages`
 
 ### Running tests
 - `yarn run test:single` (single test run with coverage)

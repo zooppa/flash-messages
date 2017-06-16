@@ -1,6 +1,6 @@
 {
   "name": "@zooppa/flash-messages",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A set of Redux reducers and actions to implement basic flash message functionality",
   "main": "dist/index.js",
   "scripts": {

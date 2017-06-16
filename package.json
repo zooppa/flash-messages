@@ -8,7 +8,7 @@
     "test": "jest --watch",
     "clean": "rimraf ./dist",
     "build": "npm run clean && webpack",
-    "prepublish": "npm run test:single && npm run build",
+    "prepublishOnly": "npm run test:single && npm run build",
     "precommit": "npm run test:single"
   },
   "author": "Zooppa <techadmin@zooppa.com> (https://www.zooppa.com/)",

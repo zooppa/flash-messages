@@ -1,7 +1,7 @@
 {
   "name": "@zooppa/flash-messages",
   "version": "0.0.1",
-  "description": "A set of reducers and actions to implement flash messages",
+  "description": "A set of Redux reducers and actions to implement basic flash message functionality",
   "main": "index.js",
   "scripts": {
     "test:single": "jest --verbose --coverage",
@@ -21,6 +21,9 @@
     "messages"
   ],
   "author": "Zooppa <techadmin@zooppa.com> (https://www.zooppa.com/)",
+  "contributors":[
+    "Marco Arduini <mar.arduini@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zooppa/flash-messages/issues"

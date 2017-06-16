@@ -21,7 +21,7 @@
     "messages"
   ],
   "author": "Zooppa <techadmin@zooppa.com> (https://www.zooppa.com/)",
-  "contributors":[
+  "contributors": [
     "Marco Arduini <mar.arduini@gmail.com>"
   ],
   "license": "MIT",
@@ -41,5 +41,9 @@
     "webpack": "^2.6.1",
     "webpack-node-externals": "^1.6.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  }
 }

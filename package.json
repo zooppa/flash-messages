@@ -8,6 +8,7 @@
     "test": "jest --watch",
     "clean": "rimraf ./dist",
     "build": "npm run clean && webpack",
+    "watch": "npm run clean && webpack --watch",
     "prepublishOnly": "npm run test:single && npm run build",
     "precommit": "npm run test:single"
   },

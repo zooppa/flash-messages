@@ -3,6 +3,7 @@ const nodeExternals = require('webpack-node-externals');
 const webpack = require('webpack');
 
 module.exports = {
+  mode: 'production',
   entry: {
     index: './src/index.js',
   },
@@ -39,6 +40,8 @@ module.exports = {
       },
     }),
     new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin(),
   ],
+  optimization: {
+    minimize: true,
+  },
 };

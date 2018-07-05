@@ -1,8 +1,7 @@
 {
   "name": "@zooppa/flash-messages",
   "version": "0.2.0",
-  "description":
-    "A set of Redux reducers and actions to implement basic flash message functionality",
+  "description": "A set of Redux reducers and actions to implement basic flash message functionality",
   "main": "dist/index.js",
   "scripts": {
     "test:single": "jest --verbose --coverage",
@@ -14,12 +13,18 @@
     "prepush": "npm run test:single"
   },
   "author": "Zooppa <techadmin@zooppa.com> (https://www.zooppa.com/)",
-  "contributors": ["Marco Arduini <mar.arduini@gmail.com>"],
+  "contributors": [
+    "Marco Arduini <mar.arduini@gmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zooppa/flash-messages.git"
   },
-  "keywords": ["redux", "flash", "messages"],
+  "keywords": [
+    "redux",
+    "flash",
+    "messages"
+  ],
   "bugs": {
     "url": "https://github.com/zooppa/flash-messages/issues"
   },
@@ -44,7 +49,7 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "husky": "^0.14.3",
-    "jest": "^22.1.0",
+    "jest": "^23.3.0",
     "prettier": "^1.13.7",
     "redux": "^3.7.2",
     "redux-mock-store": "^1.4.0",
@@ -67,5 +72,9 @@
       }
     }
   },
-  "files": ["README.md", "dist/", "src/"]
+  "files": [
+    "README.md",
+    "dist/",
+    "src/"
+  ]
 }

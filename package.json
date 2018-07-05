@@ -1,7 +1,8 @@
 {
   "name": "@zooppa/flash-messages",
   "version": "0.2.0",
-  "description": "A set of Redux reducers and actions to implement basic flash message functionality",
+  "description":
+    "A set of Redux reducers and actions to implement basic flash message functionality",
   "main": "dist/index.js",
   "scripts": {
     "test:single": "jest --verbose --coverage",
@@ -10,21 +11,15 @@
     "build": "npm run clean && webpack",
     "watch": "npm run clean && webpack --watch",
     "prepublishOnly": "npm run test:single && npm run build",
-    "precommit": "npm run test:single"
+    "prepush": "npm run test:single"
   },
   "author": "Zooppa <techadmin@zooppa.com> (https://www.zooppa.com/)",
-  "contributors": [
-    "Marco Arduini <mar.arduini@gmail.com>"
-  ],
+  "contributors": ["Marco Arduini <mar.arduini@gmail.com>"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zooppa/flash-messages.git"
   },
-  "keywords": [
-    "redux",
-    "flash",
-    "messages"
-  ],
+  "keywords": ["redux", "flash", "messages"],
   "bugs": {
     "url": "https://github.com/zooppa/flash-messages/issues"
   },
@@ -72,9 +67,5 @@
       }
     }
   },
-  "files": [
-    "README.md",
-    "dist/",
-    "src/"
-  ]
+  "files": ["README.md", "dist/", "src/"]
 }

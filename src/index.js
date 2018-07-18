@@ -1,4 +1,6 @@
-import flashMessagesReducer from './reducers/flashMessagesReducer';
+export {
+  default as flashMessagesReducer,
+} from './reducers/flashMessagesReducer';
 
 export {
   receiveFlashMessage,
@@ -7,4 +9,4 @@ export {
   receiveTimedFlashMessage,
 } from './actions/flashMessages';
 
-export { flashMessagesReducer };
+export { getAllFlashMessages } from './selectors';

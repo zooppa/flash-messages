@@ -7,6 +7,7 @@ describe('index.js', () => {
     'clearFlashMessages',
     'receiveTimedFlashMessage',
     'flashMessagesReducer',
+    'getAllFlashMessages',
   ].forEach(key => {
     it(`exports ${key}`, () => {
       expect(typeof exports[key]).toEqual('function');

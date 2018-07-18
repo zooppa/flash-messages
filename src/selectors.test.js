@@ -6,11 +6,13 @@ describe('selectors', () => {
   describe('getAllFlashMessages(state)', () => {
     const state = deepFreeze({
       flashMessages: {
-        1: {
+        abc: {
+          id: 'abc',
           type: 'warning',
           text: 'some text',
         },
-        2: {
+        def: {
+          id: 'def',
           type: 'success',
           text: 'all good',
         },
@@ -19,8 +21,8 @@ describe('selectors', () => {
 
     it('returns flash messages as an array', () => {
       expect(getAllFlashMessages(state)).toEqual([
-        { type: 'warning', text: 'some text' },
-        { type: 'success', text: 'all good' },
+        { id: 'abc', type: 'warning', text: 'some text' },
+        { id: 'def', type: 'success', text: 'all good' },
       ]);
     });
   });

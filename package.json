@@ -4,7 +4,7 @@
     "node": "12.x",
     "yarn": "1.x"
   },
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A set of Redux reducers and actions to implement basic flash message functionality",
   "main": "dist/index.js",
   "scripts": {

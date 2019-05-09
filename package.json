@@ -1,7 +1,7 @@
 {
   "name": "@zooppa/flash-messages",
   "engines": {
-    "node": "12.x",
+    "node": ">=9.0.0",
     "yarn": "1.x"
   },
   "version": "0.6.0",

@@ -13,8 +13,12 @@
     "clean": "rimraf ./dist",
     "build": "npm run clean && webpack --display-optimization-bailout",
     "watch": "npm run clean && webpack --watch",
-    "prepublishOnly": "npm run test:single && npm run build",
-    "prepush": "npm run test:single"
+    "prepublishOnly": "npm run test:single && npm run build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test:single"
+    }
   },
   "author": "Zooppa <techadmin@zooppa.com> (https://www.zooppa.com/)",
   "contributors": [
@@ -53,7 +57,7 @@
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.5.0",
-    "husky": "^0.14.3",
+    "husky": "^2.4.0",
     "jest": "^23.5.0",
     "prettier": "^1.17.1",
     "redux": "^4.0.0",

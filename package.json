@@ -62,7 +62,7 @@
     "regenerator-runtime": "^0.12.1",
     "rimraf": "^2.6.2",
     "webpack": "^4.33.0",
-    "webpack-cli": "^3.1.0",
+    "webpack-cli": "^3.3.2",
     "webpack-node-externals": "^1.7.2"
   },
   "peerDependencies": {

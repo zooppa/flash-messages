@@ -39,7 +39,7 @@
   "homepage": "https://github.com/zooppa/flash-messages#readme",
   "license": "MIT",
   "dependencies": {
-    "shortid": "^2.2.14"
+    "shortid": "^2.2.15"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",

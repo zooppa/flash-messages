@@ -6,7 +6,7 @@ export const RECEIVE_FLASH_MESSAGE = 'RECEIVE_FLASH_MESSAGE';
 export const REMOVE_FLASH_MESSAGE = 'REMOVE_FLASH_MESSAGE';
 export const CLEAR_FLASH_MESSAGES = 'CLEAR_FLASH_MESSAGES';
 
-export const receiveFlashMessage = message => ({
+export const receiveFlashMessage = (message) => ({
   type: RECEIVE_FLASH_MESSAGE,
   message: {
     ...message,
@@ -14,7 +14,7 @@ export const receiveFlashMessage = message => ({
   },
 });
 
-export const removeFlashMessage = message => ({
+export const removeFlashMessage = (message) => ({
   type: REMOVE_FLASH_MESSAGE,
   message,
 });
@@ -27,10 +27,10 @@ export const clearFlashMessages = () => ({
 export const receiveTimedFlashMessage = (
   message,
   { time } = { time: FLASH_MESSAGE_SHOW_TIME },
-) => dispatch => {
+) => (dispatch) => {
   const addAction = dispatch(receiveFlashMessage(message));
 
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       dispatch(removeFlashMessage(addAction.message));
       resolve(

@@ -1,6 +1,4 @@
-export {
-  default as flashMessagesReducer,
-} from './reducers/flashMessagesReducer';
+export { default as flashMessagesReducer } from './reducers/flashMessagesReducer';
 
 export {
   receiveFlashMessage,

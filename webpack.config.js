@@ -16,11 +16,7 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js'],
   },
-  externals: [
-    nodeExternals({
-      whitelist: ['nanoid'],
-    }),
-  ], // do not bundle any node_modules
+  externals: [nodeExternals()], // do not bundle any node_modules
   module: {
     rules: [
       {

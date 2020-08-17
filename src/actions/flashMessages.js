@@ -1,4 +1,4 @@
-import shortid from 'shortid';
+import { nanoid } from 'nanoid';
 
 import { FLASH_MESSAGE_SHOW_TIME } from '../config';
 
@@ -10,7 +10,7 @@ export const receiveFlashMessage = (message) => ({
   type: RECEIVE_FLASH_MESSAGE,
   message: {
     ...message,
-    id: shortid(),
+    id: nanoid(),
   },
 });
 

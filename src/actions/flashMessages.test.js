@@ -62,7 +62,7 @@ describe('flashMessage actions', () => {
           const actualActions = store.getActions();
 
           expect(actualActions.length).toEqual(2);
-          // toMatchObject since message now has the id: shortid() added
+          // toMatchObject since message now has the randomly generated id
           expect(actualActions[0]).toMatchObject({
             type: RECEIVE_FLASH_MESSAGE,
             message,

@@ -16,6 +16,9 @@
     "test:single": "jest --verbose --coverage",
     "watch": "npm run clean && webpack --watch"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "husky": {
     "hooks": {
       "pre-push": "npm run test:single"
@@ -25,10 +28,7 @@
   "contributors": [
     "Marco Arduini <mar.arduini@gmail.com>"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zooppa/flash-messages.git"
-  },
+  "repository": "https://github.com/zooppa/flash-messages.git",
   "keywords": [
     "redux",
     "flash",
